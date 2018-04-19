@@ -325,6 +325,11 @@ and our administrator may contact you if we need any extra information.</h4>
             {% comment %} Adjusting your PATH environment {% endcomment %}
             <li>
               <strong>
+                Select "Use the Nano editor by default" and click on "Next".
+              </strong>
+            </li>
+            <li>
+              <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
               </strong>
                 If you forgot to do this programs that you need for the workshop will not work properly.
@@ -552,6 +557,8 @@ and our administrator may contact you if we need any extra information.</h4>
       (some older browsers, including Internet Explorer version 9
       and below, are not).
     </p>
+    
+   
 
   <div class="row">
     <div class="col-md-4">
@@ -561,6 +568,7 @@ and our administrator may contact you if we need any extra information.</h4>
         <li>Open <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> with your web browser.</li>
         <li>Download the Python 3 installer for Windows.</li>
         <li>Install Python 3 using all of the defaults for installation <em>except</em> make sure to check <strong>Make Anaconda the default Python</strong>.</li>
+         <li> After installation, if you cannot run jupyter notebook from command lines (Git Bash) as shown in the video tutorial, please test if you can start Anaconda Navigator from your Start menu (Windows). </li>
       </ol>
     </div>
     <div class="col-md-4">
